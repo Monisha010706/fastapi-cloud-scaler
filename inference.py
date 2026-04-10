@@ -69,7 +69,7 @@ def run(difficulty):
 
     print(f"[START] task={difficulty}", flush=True)
 
-    for _ in range(20):
+    for _ in range(50):
         step_count += 1
 
         action = get_llm_action(state)
