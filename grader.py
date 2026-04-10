@@ -8,4 +8,4 @@ def grade(score):
     normalized = (score - min_score) / (max_score - min_score)
 
     # clamp between 0 and 1
-    return max(0.0, min(1.0, normalized))
+    return max(0.01, min(0.99, normalized))
